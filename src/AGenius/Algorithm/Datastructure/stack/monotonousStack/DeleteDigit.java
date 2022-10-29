@@ -8,10 +8,14 @@ package AGenius.Algorithm.Datastructure.stack.monotonousStack;
  */
 public class DeleteDigit {
 
+
     /**
      *@param A: A positive integer which has N digits, A is a string.
      *@param k: Remove k digits.
      *@return: A string
+     *
+     * Time: O(nk)
+     * Space: O(n) worst case
      */
     public String DeleteDigits(String A, int k) {
         StringBuffer sb = new StringBuffer(A);
