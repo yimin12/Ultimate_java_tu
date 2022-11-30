@@ -1,6 +1,7 @@
 package AGenius.Algorithm.DesignPattern.Memento.history;
 
-import AGenius.Algorithm.DesignPattern.Command.commands.Command;
+
+import AGenius.Algorithm.DesignPattern.Memento.commands.Command;
 
 import java.util.ArrayList;
 import java.util.List;

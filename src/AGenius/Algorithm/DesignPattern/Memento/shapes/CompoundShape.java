@@ -14,8 +14,8 @@ public class CompoundShape extends BaseShape {
         add(components);
     }
 
-    public void add(Shape componet) {
-        children.add(componet);
+    public void add(Shape component) {
+        children.add(component);
     }
 
     public void add(Shape... components) {
@@ -184,4 +184,5 @@ public class CompoundShape extends BaseShape {
             child.paint(graphics);
         }
     }
+
 }
